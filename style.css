@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #161616; 
+    color: #fff;
+}
+
+.clock{
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #000;
+    padding: 30px;
+    border-radius: 4px;
+}
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.clock span{
+    position: relative;
+    top: -13px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
